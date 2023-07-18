@@ -4,7 +4,10 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiIntellijidea,
-  SiMicrosoftexcel
+  SiMicrosoftexcel,
+  SiMysql,
+  SiPowerbi,
+  SiPowershell
 } from "react-icons/si";
 
 function Toolstack() {
@@ -14,11 +17,20 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiMysql/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea />
+        <SiPowerbi/>
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPowershell/>
+      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <SiPostman />
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <SiIntellijidea />
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiMicrosoftexcel/>
       </Col>

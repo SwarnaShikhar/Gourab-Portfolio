@@ -6,7 +6,8 @@ import {
   DiGit,
   DiMysql,
   DiHtml5,
-  DiCss3
+  DiCss3,
+  DiMsqlServer
 } from "react-icons/di";
 import { 
   FaJava,
@@ -17,7 +18,13 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
+        <DiMysql/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <FaJava/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMsqlServer/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiHtml5/>
@@ -28,15 +35,13 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <FaBootstrap/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMysql/>
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
