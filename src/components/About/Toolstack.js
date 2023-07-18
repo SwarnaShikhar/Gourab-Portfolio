@@ -2,8 +2,6 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiPostman,
-  SiIntellijidea,
   SiMicrosoftexcel,
   SiMysql,
   SiPowerbi,
