@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { DiGitCommit } from "react-icons/di";
 import {
   SiVisualstudiocode,
   SiMicrosoftexcel,
-  SiMysql,
   SiPowerbi,
   SiPowershell
 } from "react-icons/si";
@@ -15,22 +15,16 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMysql/>
+        <SiPowerbi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPowerbi/>
+        <SiPowershell />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPowershell/>
+        <DiGitCommit />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea />
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftexcel/>
+        <SiMicrosoftexcel />
       </Col>
     </Row>
   );

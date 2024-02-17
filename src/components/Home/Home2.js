@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,36 +20,46 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with data and programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            Passionate 
+            <i>
+                <b className="purple"> data enthusiast </b>
+              </i>
+              &nbsp; with a flair for 
+              <i>
+                <b className="purple"> analysis and visualization </b>
+              </i>
+              &nbsp;, seeking to leverage my skills in transforming raw data into meaningful insights.
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple">SQL/MYSQL , Java , HTML , CSS ,  </b>
+                <b className="purple"> SQL, Java, Power BI, Operations, Excel. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Data Analysis and Web Technologies </b> and
+                <b className="purple">Technologies and Data Analysis </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Database Management System and Computer Networks.
+                  Database Management System .
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with and
+              Beyond the world of data, I find creative expression through 
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  video editing
                 </b>
               </i>
-              &nbsp; like
+              &nbsp;,strumming melodies on the
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> guitar</b>
+              </i>
+              &nbsp;,and tapping rhythmic beats on the
+              <i>
+                <b className="purple"> cajon.</b>
               </i>
             </p>
           </Col>
@@ -65,6 +76,18 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+              
+            <li className="social-icons">
+                <a
+                  href="mailto:gourabdeb1619@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillMail />
+                </a>
+              </li>
+
               <li className="social-icons">
                 <a
                   href="https://github.com/Gourabdeb1619"

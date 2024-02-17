@@ -1,43 +1,37 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiReact,
   DiGit,
   DiMysql,
-  DiHtml5,
   DiCss3,
-  DiMsqlServer
 } from "react-icons/di";
-import { 
+import {
   FaJava,
-  FaBootstrap
+  FaBootstrap,
+  FaPython
 } from "react-icons/fa";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMysql/>
+        <DiMysql />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <FaPython />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <FaJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaJava/>
+        <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMsqlServer/>
+        <FaBootstrap />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiCss3/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaBootstrap/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      
+
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>

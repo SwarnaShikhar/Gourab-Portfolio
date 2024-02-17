@@ -4,6 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import laughter from "../../Assets/Projects/laughter.png"
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import reportanalysis from "../../Assets/Projects/1690635319933.jpg";
+import socialbuzzdashboard from "../../Assets/Projects/1689838924211.jpg";
+import Salesanalytics from "../../Assets/Projects/Screenshot 2023-07-24 225916.png";
 
 function Projects() {
   return (
@@ -17,16 +20,44 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={reportanalysis}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Report Analysis"
+              description="Sales Analysis report which includes various sales attributes to get a better understanding about growth , audience and other aspects of the company. "
+              ghLink="https://github.com/Gourabdeb1619/Report-Analysis"
+              liLink="https://www.linkedin.com/posts/gourab-deb-b77843142_datadrivendecisions-businessgrowth-salesinsights-activity-7091038489642725376-0Gqp?utm_source=share&utm_medium=member_desktop"
+              // demoLink="https://chatify-49.web.app/"
             />
-          </Col> */}
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={socialbuzzdashboard}
+              isBlog={false}
+              title="Social Buzz Dasboard"
+              description="Project-key points
+              Data collection
+              Data cleaning and wrangling
+              Data modelling
+              Data visualization
+              Dashboard Design"
+              liLink="https://www.linkedin.com/posts/gourab-deb-b77843142_powerbi-dataanalysis-datavisualization-activity-7087698161820966912-EF6k?utm_source=share&utm_medium=member_desktop"
+              // demoLink="https://plant49-ai.herokuapp.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Salesanalytics}
+              isBlog={false}
+              title="Sales Dashboard Veiw"
+              description="A meticulously crafted Dashboard view showcasing detailed order summaries for the past few months of a company. Created with professionalism using PowerBI.bg."
+              liLink="https://www.linkedin.com/posts/gourab-deb-b77843142_datavisualization-powerbi-businessintelligence-activity-7089614800711819265-MgG0?utm_source=share&utm_medium=member_desktop"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -50,27 +81,7 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col> */}
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col> */}
+        
 
           {/* <Col md={4} className="project-card">
             <ProjectCard

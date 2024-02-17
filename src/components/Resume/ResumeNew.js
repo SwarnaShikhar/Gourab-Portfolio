@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Gourab_Deb_Resume.pdf";
+import pdf from "../../Assets/../Assets/Gourab Deb_resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/Gourabdeb1619/OnlyTxt/d3334be6c8aaaa715974e114e5f463be968bc401/src/Gourab%20Resume%20New.pdf";
+  "https://raw.githubusercontent.com/Gourabdeb1619/LaughterClub/d5b787a7cb4263922cc0a8a5f0dffd84f4e926b3/Gourab-Deb-FlowCV-Resume-20240218%20(1).pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);

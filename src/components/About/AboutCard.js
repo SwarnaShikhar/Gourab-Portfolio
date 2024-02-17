@@ -10,10 +10,11 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Gourab Deb </span>
             from <span className="purple"> Jalpaiguri, India.</span>
-            <br />I am an Undergrad currently doing my Btech from <span className="purple"> Siliguri Institute of Technology.</span>
+            <br />I am an undergrad currently doing my Btech from <span className="purple"> Siliguri Institute of Technology.</span> in 
+            <span className="purple"> Computer Science and Engineering.</span>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from analysis and visualization, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
