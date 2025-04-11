@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/SwarnaShikhar/Gourab-Portfolio/235085d772c446b06f403cd3935f674bf3b08b5c/src/Assets/Gourab%20Deb_resume.pdf";
+  "https://raw.githubusercontent.com/SwarnaShikhar/Gourab-Portfolio/8748688181d9707d2fb982f4b5b705c8f556c501/Gourab-Deb-resume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
